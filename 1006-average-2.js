@@ -23,7 +23,7 @@ Input Samples	Output Samples
 5.0
  */
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 var A = parseFloat(lines.shift());

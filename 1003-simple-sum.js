@@ -20,7 +20,7 @@ Like all the problems, don't forget to print the end of line, otherwise you will
     0
  */
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 

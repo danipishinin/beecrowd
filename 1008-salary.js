@@ -23,7 +23,7 @@ Input Samples	Output Samples
 15.55
 */
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 var employees = parseInt(lines.shift());
 var hourPerMonth = parseInt(lines.shift());

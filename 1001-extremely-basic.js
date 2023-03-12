@@ -22,7 +22,7 @@ Obs.: don't forget the endline after all.
     -7
  */
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
         
 var a = parseInt(lines.shift());

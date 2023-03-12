@@ -19,7 +19,7 @@ Use all double precision variables. Like all the problems, don't forget to print
 
  */
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 var R = parseFloat(lines.shift());
 var n = 3.14159;
