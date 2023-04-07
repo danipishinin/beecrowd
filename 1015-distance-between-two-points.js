@@ -22,12 +22,11 @@ Input Sample	Output Sample
 2.5 -0.4        16.4575
 -12.2 7.0
  */
-const {pow, sqrt} = require("mathjs");
 var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 var [x1,y1] = lines.shift().split(" ");
 var [x2,y2] = lines.shift().split(" ");
 
-var distance = sqrt(pow((x2 - x1),2) + pow((y2 - y1),2));
+var distance = Math.sqrt(Math.pow((x2 - x1),2) + Math.pow((y2 - y1),2));
 console.log(distance.toFixed(4));
