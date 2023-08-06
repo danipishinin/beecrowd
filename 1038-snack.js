@@ -20,3 +20,10 @@ Output
 The output must be a message "Total: R$ " followed by the total value to be paid, with 2 digits after the decimal point.
  */
 
+var input = require('fs').readFileSync('stdin', 'utf8');
+var lines = input.split('\n');
+var [x,y] = lines.shift().split(" ");
+
+var price_products = [4, 4.5, 5, 2, 1.5];
+var total = price_products[x - 1] * y;
+console.log(`Total: R$`,total.toFixed(2))
