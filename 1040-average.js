@@ -18,7 +18,7 @@ The input contains four floating point numbers that represent the students' grad
 Output
 Print all the answers with one digit after the decimal point.
  */
-
+  
 var input = require('fs').readFileSync('stdin', 'utf8')
 var lines = input.split('\n');
 const [N1, N2, N3, N4] = lines.shift().split(" ").map(Number);
@@ -29,11 +29,11 @@ const averageWithExame = (average + exame) / 2;
 
 function resultadoAposExame() {
         if (averageWithExame >= 5) {
-            console.log(`Nota do exame: ${exame?.toFixed(1)}`);
+            console.log(`Nota do exame: ${exame.toFixed(1)}`);
             console.log("Aluno aprovado.");
             console.log(`Media final: ${averageWithExame.toFixed(1)}`);
         } else {
-            console.log(`Nota do exame: ${exame?.toFixed(1)}`);
+            console.log(`Nota do exame: ${exame.toFixed(1)}`);
             console.log("Aluno reprovado.");
             console.log(`Media final: ${averageWithExame.toFixed(1)}`);
         }
