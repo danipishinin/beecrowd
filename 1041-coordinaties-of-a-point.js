@@ -21,8 +21,8 @@ var [x, y] = lines.shift().split(" ");
 
 if (x == 0.0 && y == 0.0) return console.log("Origem")
 
-if (x == 0.0) return console.log("Eixo X")
-if (y == 0.0) return console.log("Eixo Y")
+if (x == 0.0) return console.log("Eixo Y")
+if (y == 0.0) return console.log("Eixo X")
 
 if (x > 0 && y < 0) return console.log("Q4")
 if (x > 0 && y > 0) return console.log("Q1")
