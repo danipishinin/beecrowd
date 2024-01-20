@@ -16,8 +16,8 @@
   2 16          O JOGO DUROU 14 HORA(S)
  */
 
-  var input = require('fs').readFileSync('stdin', 'utf-8');
-  var lines = input.split('\n');
+var input = require('fs').readFileSync('stdin', 'utf-8');
+var lines = input.split('\n');
 const [S,E] = lines.shift().split(" ").map(Number);
 
 function calcularDuracaoJogo(inicio, fim) {
