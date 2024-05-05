@@ -23,3 +23,4 @@ var formatInput = parseInt(number);
 for (i = 0; i <= formatInput; i++) {
     if (i % 2 !== 0) console.info(i)
 }
+
