@@ -22,7 +22,6 @@ S                   112.4
 ...
  */
 
-// SOMAR TODAS AS CASAS ONDE O NUMERO DE LINHA + COLUNA SEJA >= 12
 
 var input = require("fs").readFileSync("stdin", "utf8");
 var lines = input.split("\n");
